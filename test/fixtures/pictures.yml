@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image: 
+  event_id: 1
+  fresh_id: 1
+
+two:
+  image: 
+  event_id: 1
+  fresh_id: 1
