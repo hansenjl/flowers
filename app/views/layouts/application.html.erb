@@ -3,16 +3,28 @@
   <head>
     <title>Golden B Designs</title>
     <%= csrf_meta_tags %>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
   </head>
 
 
   <body>
-    <header>
-      <img src="./assets/images/contact.jpg" alt="Business Card">
-    </header>
-    <%= yield %>
-  </body>
+    <div class="container">
+      <header>
+        <%= image_tag "contact.jpg" %>
+      </header>
+      <div class="nav-bar">
+      </div>
+      <div class="row">
+        <div class="one-half column" style="margin-top: 25%">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+</body>
+
 </html>
