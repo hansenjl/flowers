@@ -15,16 +15,16 @@
   <body>
     <div class="container">
       <header>
-        <%= image_tag "contact.jpg" %>
+        <br>
+        <div class="nav-bar row">
+          <%= link_to 'Home', root_path, class: "two columns", id:"home"  %>
+          <%= link_to 'Fresh To Order', fresh_index_path, class: "two columns", id:"fresh" %>
+          <%= link_to 'Events', events_path, class: "two columns", id:"events" %>
+          <%= link_to 'Testimonials', testimonials_path, class: "two columns", id:"testimonials" %>
+          <%= link_to 'About', about_path, class: "two columns", id:"about" %>
+          <a href="https://www.facebook.com/goldenbdesigns/" target="_blank" class="two columns" id="facebook">Facebook</a>
+        </div>
       </header>
-      <div class="nav-bar">
-        <%= link_to 'Home', root_path %>
-        <%= link_to 'Fresh To Order', fresh_index_path %>
-        <%= link_to 'Events', events_path %>
-        <%= link_to 'Testimonials', testimonials_path %>
-        <%= link_to 'About', about_path %>
-        <a href="https://www.facebook.com/goldenbdesigns/" target="_blank">Facebook</a>
-      </div>
       <div class="row">
         <div class="one-half column" style="margin-top: 25%">
           <%= yield %>

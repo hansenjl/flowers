@@ -430,3 +430,40 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+/* Nav Bar Links */
+div.nav-bar a{
+  padding-top:13.3%;
+}
+
+#facebook {
+  background: url('facebook.png') no-repeat;
+  background-size: 100%;
+}
+
+
+#about {
+  background: url('about.png') no-repeat;
+  background-size: 100%;
+}
+
+#fresh {
+  background: url('FRESH.jpg') no-repeat;
+  background-size: 100%;
+}
+
+#events {
+  background: url('WEDDING.jpg') no-repeat;
+  background-size: 100%;
+}
+
+#testimonials {
+  background: url('EVENT.jpg') no-repeat;
+  background-size: 100%;
+}
+
+#home {
+  background: url('https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/10300897_278537655662266_1229173445334522187_n.jpg?oh=536feaae4d0036590813a131f19c0718&oe=5AC725CC') no-repeat;
+  background-size: 100%;
+}
