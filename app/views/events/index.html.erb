@@ -1,1 +1,7 @@
 <h2>Events</h2>
+
+<ul>
+<% @events.each do |event|%>
+  <li><strong><%=event.name%></strong></li>
+<% end %>
+</ul>
